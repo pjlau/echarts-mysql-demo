@@ -7,7 +7,7 @@ def get_db_connection():
             host='localhost',
             database='sales_db',
             user='root',
-            password='plau2016'
+            password='your_password' # replace your_password with your own password
         )
         return connection
     except Error as e:
