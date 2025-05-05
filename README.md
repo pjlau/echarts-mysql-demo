@@ -32,3 +32,6 @@ This project demonstrates a simple web application using ECharts for visualizati
    
 5. Access at `http://localhost:8080`.
 
+## Results
+
+<img src="images/demo_fig1.png" alt="Example1" width="400">
