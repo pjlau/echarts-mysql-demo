@@ -12,5 +12,23 @@ This project demonstrates a simple web application using ECharts for visualizati
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/pjlau/echarts-mysql-demo
    cd echarts-mysql-demo
+   
+2. Install required libraries:
+   ```bash
+   cd backend
+   pip install -r requirements.txt
+   
+3. Run the backend app:
+   ```bash
+   uvicorn main:app --reload
+   
+4. Use a local development server:
+   ```bash
+   cd ..
+   cd frontend
+   python -m http.server 8080
+   
+5. Access at `http://localhost:8080`.
+
